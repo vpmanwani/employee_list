@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Employee List</title>
+  </head>
+  <body>
+    <h2>Employee List</h2>
+
+      <form id="form">
+        <div class="form-control">
+          <label for="text"  class="header">Name*</label>
+          <input type="text" id="name" placeholder="eg John Doe" />
+        </div>
+        <br />
+        
+        <div class="form-control">
+          <input type="number" id="mobile" placeholder="Mobile No.*" />
+        </div>
+        <br />
+
+        <div class="form-control">
+          <input type="text" id="email" placeholder="Email ID*" />
+        </div>
+        <br />
+        
+        <button class="btn">ADD</button>
+      </form>
+
+    <div class="container">
+         <div id="list" class="list">
+         </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
